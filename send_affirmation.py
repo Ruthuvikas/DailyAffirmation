@@ -32,7 +32,7 @@ def send_email(affirmation):
     """Send an email with the generated affirmation."""
     try:
         msg = MIMEText(affirmation)
-        msg["Subject"] = "Your Daily Affirmation"
+        msg["Subject"] = "Your Daily Affirmation \U0001FA77"
         msg["From"] = SENDER_EMAIL
         msg["To"] = RECIPIENT_EMAIL
 
