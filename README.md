@@ -41,7 +41,9 @@ cd DailyAffirmation
   ```bash
    python3 send_affirmation.py
    ```
-### Deploy to Github Actions
+---
+
+## Deploy to Github Actions
 
 Add Repository Secrets:
 
@@ -62,10 +64,14 @@ Run the Workflow:
 The workflow will run daily as per the schedule.
 To test the workflow manually, go to the Actions tab in your GitHub repository and trigger the workflow.
 
-###Contribution
+---
+
+## Contribution
 Feel free to fork this repository, make enhancements, and create pull requests. Contributions are always welcome!
 
-###License
+---
+
+## License
 This project is licensed under the MIT License.
 
 
