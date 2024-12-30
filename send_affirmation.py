@@ -1,11 +1,12 @@
 import smtplib
 from email.mime.text import MIMEText
 import random
+import os
 
 # Email credentials
-SENDER_EMAIL = "ruthuvikas.28@gmail.com"
-SENDER_PASSWORD = "exlw xhii bphs srrd"
-RECIPIENT_EMAIL = "rvravikumar@ucdavis.edu"
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
+RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 
 # List of affirmations
 AFFIRMATIONS = [
