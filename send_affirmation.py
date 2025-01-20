@@ -13,7 +13,7 @@ RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL")
 model = ChatOpenAI(temperature=0.7, model_name="gpt-4")
 
 # System prompt for generating affirmations
-system_prompt = """You are a Daily Affirmation generator. Generate unique, motivational affirmations with emojis. Each affirmation should be positive and inspiring."""
+system_prompt = """You are a Daily Affirmation generator. Generate unique, motivational affirmations with emojis. Each affirmation should be derived from Bhagavad Gita."""
 
 def generate_affirmation():
     """Generate a daily affirmation using GPT."""
